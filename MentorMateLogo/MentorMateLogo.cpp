@@ -7,6 +7,7 @@ int main()
 	int n;
 	printf("Please enter an odd number between 2 and 10 000!: ");
 	cin >> n;
+
 	//Loop to check if the entered number is correct
 	while (n % 2 == 0 || (n < 2 || n > 10000))
 	{
